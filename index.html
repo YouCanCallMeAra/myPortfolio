@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="https://bulma.io">
+          <div class="logo"><strong> ARA'S PORTFOLIO</strong></div>
+        </a>
+
+        <a
+          role="button"
+          class="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="#home"> Home </a>
+
+          <a class="navbar-item" href="#about"> About </a>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link"> More </a>
+
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="#about"> About </a>
+              <a class="navbar-item" href="#projects"> Projects </a>
+              <a class="navbar-item" href="#skills"> Skills </a>
+              <a class="navbar-item" href="#contact"> Contact </a>
+              <hr class="navbar-divider" />
+              <a class="navbar-item"> Report an issue </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- END OF NAVIGATION BAR -->
+
+    <!-- HERO SECTION -->
+    <div class="hero" id="home">
+      <div class="middle" data-aos="zoom-in" data-aos-duration="1000">
+        <p class="subtitle">Hey there, i'm</p>
+
+        <h1 class="title">ARA</h1>
+
+        <p class="subtitle profission">A WEB DEVELOPER</p>
+      </div>
+    </div>
+    <!-- END OF HERO SECTION -->
+
+    <!-- ABOUT SECTION -->
+    <div class="aboutMe" id="about">
+      <div class="aboutTitle"><h1>ABOUT ME</h1></div>
+      <div class="aboutContent">
+        <div class="aboutText" data-aos="fade-right">
+          <p>
+            Hi, I'm Ara. A 23 year old Fullstack Web Developer
+            <strong>(that is a lie)</strong> , based in Sulaymaniah, Iraq.
+            <br />
+            currently taking a course that has been organized by Potan and GIZ,
+            to further improve my skills as a web developer
+          </p>
+          <br />
+          <p>
+            I have graduated from University of Human Development with Bachelor
+            degree in Information Technology.
+          </p>
+          <br />
+          <p>I aim to help you build a proper website that suits your needs</p>
+        </div>
+        <div class="aboutImg" data-aos="fade-left">
+          <img src="https://picsum.photos/id/366/600/375" id="aboutImg" />
+        </div>
+      </div>
+    </div>
+    <!-- END OF ABOUT SECTION -->
+
+    <!-- CARDS SECTION SECTION -->
+    <div class="cardSection" id="projects">
+      <div class="cardTitle" style="color: white"><h1>PROJECTS</h1></div>
+      <div class="cardCards">
+        <div class="card" data-aos="zoom-in">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img
+                src="https://bulmathemes.com/uploads/landspeed.png"
+                alt="Placeholder image"
+              />
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">My first website</p>
+                <p class="subtitle is-6">Bulma</p>
+              </div>
+            </div>
+            <button class="card-button">VIEW</button>
+          </div>
+        </div>
+        <div class="card" data-aos="zoom-in">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img
+                src="https://bulmathemes.com/uploads/landspeed.png"
+                alt="Placeholder image"
+              />
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">My first website</p>
+                <p class="subtitle is-6">Bulma</p>
+              </div>
+            </div>
+            <button class="card-button">VIEW</button>
+          </div>
+        </div>
+        <div class="card" data-aos="zoom-in">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img
+                src="https://bulmathemes.com/uploads/landspeed.png"
+                alt="Placeholder image"
+              />
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">My first website</p>
+                <p class="subtitle is-6">Bulma</p>
+              </div>
+            </div>
+            <button class="card-button">VIEW</button>
+          </div>
+        </div>
+        <div class="card" data-aos="zoom-in">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="https://bulma.io/images/expo/divjoy-1344x840.jpg" />
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">My second website</p>
+                <p class="subtitle is-6">Bootstrap</p>
+              </div>
+            </div>
+            <button class="card-button">VIEW</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END OF CARDS SECTION -->
+
+    <!--  SKILLS SECTION -->
+    <div class="skillSection" id="skills">
+      <div class="skillTitle">
+        <h1><strong>SKILLS</strong></h1>
+      </div>
+
+      <div class="skills">
+        <div class="skill" data-aos="fade-up" data-aos-duration="3000">
+          <img src="https://cdn.svgporn.com/logos/html-5.svg" alt="" />
+          <h1>HTML</h1>
+        </div>
+        <div class="skill" data-aos="fade-up" data-aos-duration="3000">
+          <img src="https://cdn.svgporn.com/logos/css-3.svg" alt="" />
+          <h1>CSS</h1>
+        </div>
+        <div class="skill" data-aos="fade-up" data-aos-duration="3000">
+          <img src="https://cdn.svgporn.com/logos/javascript.svg" alt="" />
+          <h1>JavaScript</h1>
+        </div>
+        <div class="skill" data-aos="fade-up" data-aos-duration="3000">
+          <img src="https://cdn.svgporn.com/logos/bootstrap.svg" alt="" />
+          <h1>Bootstrap</h1>
+        </div>
+        <div class="skill" data-aos="fade-up" data-aos-duration="3000">
+          <img src="https://cdn.svgporn.com/logos/git-icon.svg" alt="" />
+          <h1>Git</h1>
+        </div>
+        <div class="skill" data-aos="fade-up" data-aos-duration="3000">
+          <img src="https://cdn.svgporn.com/logos/mysql.svg" alt="" />
+          <h1>MySQL</h1>
+        </div>
+      </div>
+    </div>
+    <!-- END OF SKILLS SECTION -->
+
+    <!-- CONTACT SECTION -->
+    <div class="section-light contact" id="contact">
+      <div class="container">
+        <div
+          class="columns is-multiline"
+          data-aos="fade-in-up"
+          data-aos-easing="linear"
+        >
+          <div class="column is-12 about-me">
+            <h1 class="title has-text-centered section-title">Get in touch</h1>
+          </div>
+          <div class="column is-8 is-offset-2">
+            <form action="https://formspree.io/email@example.com" method="POST">
+              <div class="field">
+                <label class="label">Name</label>
+                <div class="control has-icons-left">
+                  <input
+                    class="input"
+                    type="text"
+                    placeholder="Ex. Jane Smith"
+                    name="Name"
+                  />
+                  <span class="icon is-small is-left">
+                    <i class="fas fa-user"></i>
+                  </span>
+                </div>
+              </div>
+              <div class="field">
+                <label class="label">Email</label>
+                <div class="control has-icons-left">
+                  <input
+                    class="input"
+                    type="email"
+                    placeholder="Ex. hello@arctheme.com"
+                    name="Email"
+                  />
+                  <span class="icon is-small is-left">
+                    <i class="fas fa-envelope"></i>
+                  </span>
+                </div>
+              </div>
+              <div class="field">
+                <label class="label">Message</label>
+                <div class="control">
+                  <textarea
+                    class="textarea"
+                    placeholder="Textarea"
+                    name="Message"
+                  ></textarea>
+                </div>
+              </div>
+              <div class="field">
+                <div class="control">
+                  <button class="button submit-button">
+                    Submit&nbsp;&nbsp;
+                    <i class="fas fa-paper-plane"></i>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END OF CONTACT SECTION -->
+
+    <!-- FOOTER SECTION -->
+
+    <footer class="my-footer">
+      <div class="footer-right">
+        <a href="https://codepen.io/your-work"
+          ><img
+            style="padding: 6px"
+            src="https://cdn.svgporn.com/logos/codepen-icon.svg"
+            alt=""
+        /></a>
+        <a href="https://github.com/YouCanCallMeAra"
+          ><img
+            style="padding: 6px"
+            src="https://www.nicepng.com/png/full/52-520535_free-files-github-github-icon-png-white.png"
+            alt=""
+        /></a>
+      </div>
+
+      <div class="footer-left">
+        <p class="footer-links">
+          <a class="link-1" href="#home">Home</a>
+
+          <a href="#about">About</a>
+
+          <a href="#projects">Projects</a>
+
+          <a href="#skills">Skills</a>
+
+          <a href="#contact">Contact</a>
+        </p>
+
+        <p>Ara's Porfolio &copy; 2021</p>
+      </div>
+    </footer>
+    <!-- END OF FOOTER SECTION -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+
+      document.addEventListener("DOMContentLoaded", () => {
+        // Get all "navbar-burger" elements
+        const $navbarBurgers = Array.prototype.slice.call(
+          document.querySelectorAll(".navbar-burger"),
+          0
+        );
+
+        // Check if there are any navbar burgers
+        if ($navbarBurgers.length > 0) {
+          // Add a click event on each of them
+          $navbarBurgers.forEach((el) => {
+            el.addEventListener("click", () => {
+              // Get the target from the "data-target" attribute
+              const target = el.dataset.target;
+              const $target = document.getElementById(target);
+
+              // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+              el.classList.toggle("is-active");
+              $target.classList.toggle("is-active");
+            });
+          });
+        }
+      });
+    </script>
+  </body>
+</html>
